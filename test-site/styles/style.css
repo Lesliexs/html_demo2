@@ -1,0 +1,40 @@
+
+/*对整个页面进行全局设定<html>是整个页面的父元素*/
+html{
+    font-size: 10px; /* px 表示 “像素（pixels）”: 这个基础字号现在高10像素 */
+    font-family: 'Open Sans', sans-serif; /* 剩下的部分是你从 Google fonts 上获取的输出 可以从Google fonts中获得字体，还能够直接生成CSS代码 */
+}  
+html{
+    background-color:  #00539F;
+}
+h1 {
+    font-size: 60px;     /*标题大小*/
+    text-align: center; /*设置标题居中*/
+}
+h1{ margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 1px black; /*第一个像素值设置了水平对齐——它的横向偏移；一个负值会导致向左偏移。
+    第二个像素值设置了垂直对齐——它的纵向偏移；一个负值会导致向上偏移。第三个像素值设置了阴影的模糊半径——越大的值会产生
+    越模糊的阴影。第四个值设置了阴影的基色。*/
+      
+  }
+  
+p, li {
+    font-size: 16px; /*设置字体大小*/   
+    line-height: 2; /*设置行高*/
+    letter-spacing: 1px; /*设置字间距*/
+  }
+
+body {
+    width: 600px; /*强制页面保持600像素款*/
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px; /*我们给内边距设置了四个值来让内容四周产生一点空间。这一次我们不设置上方的内边距，
+    设置右边，下方，左边的内边距为20像素。值以上、右、下、左的顺序排列。*/
+    border: 5px solid black;  /* 为页面四周设置5像素的黑色实线边框 */
+  }
+img {
+    display: block;
+    margin: 0 auto;  /*居中图像*/
+  }
